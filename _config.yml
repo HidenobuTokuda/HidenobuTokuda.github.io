@@ -57,6 +57,9 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+include:
+  - _pages
+
 defaults:
   # _posts
   - scope:
@@ -70,6 +73,7 @@ defaults:
       share: true
       related: true
       toc: true
+      toc_sticky: true
 
 author:
   name: "My Name"
@@ -86,3 +90,10 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: ""
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
