@@ -76,10 +76,10 @@ defaults:
       toc_sticky: true
 
 author:
-  name: "My Name"
+  name: "Hidenobu Tokuda"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "**test**" # Note: Markdown is allowed
-  location: "Somewhere"
+  bio: '> "I have resolved to remain for the rest of my life a nameless cat"<br><small><small>Soseki Natume (translated by Aiko Ito & Graeme Wilson)</small></small>' # Note: Markdown is allowed
+  #location: "Somewhere"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
